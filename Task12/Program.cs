@@ -8,17 +8,15 @@ bool Div(int first, int second)
 {
     return first % second == 0;
 }
-
+int Multiple(int number1, int number2)
+{
+    return number1 % number2;
+}
 
 Console.Write("Введите целое число A ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число B ");
 int b = Convert.ToInt32(Console.ReadLine());
-
-bool Div(int first, int second)
-{
-    return first % second == 0;
-}
 
 if (Div(a, b))
 {
@@ -28,3 +26,7 @@ else
 {
      Console.WriteLine("Не кратно");
 }
+
+
+int rest = Multiple(num1,num2);
+Console.WriteLine(rest == 0? "Кратно" : $"не кратно, остаток {rest}");
