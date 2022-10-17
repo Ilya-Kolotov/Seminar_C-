@@ -17,7 +17,8 @@ Console.WriteLine($"Случайное трехзначное число -> {num
 int firstDigit = num / 100;
 int secondDigit = num % 10;
 
-int result = firstDigit * 10 + secondDigit;
-Console.WriteLine(result);
+// int result = firstDigit * 10 + secondDigit;
+// Console.WriteLine(result);
 
-Console.WriteLine(RemoveSecondDigit(num));
+int finalDigit = RemoveSecondDigit(num);
+Console.WriteLine(finalDigit);
