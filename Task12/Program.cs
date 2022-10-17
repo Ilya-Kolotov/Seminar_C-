@@ -10,13 +10,12 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число B ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-int Div(int first, int second)
+bool Div(int first, int second)
 {
-    int result = first % second;
-    return result;
+    return first % second == 0;
 }
 
-if (Div(a, b) == 0)
+if (Div(a, b))
 {
     Console.WriteLine("Кратно");
 }
