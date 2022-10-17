@@ -4,6 +4,11 @@
 // программа выводит остаток от деления.
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно
+bool Div(int first, int second)
+{
+    return first % second == 0;
+}
+
 
 Console.Write("Введите целое число A ");
 int a = Convert.ToInt32(Console.ReadLine());
