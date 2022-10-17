@@ -25,6 +25,6 @@ else
 // 3 -> Среда
 // 5 -> Пятница
 
-Console.Write("Введите целое число от 1 до 7 ");
-int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите целое число от 1 до 7 ");
+// int a = Convert.ToInt32(Console.ReadLine());
 
