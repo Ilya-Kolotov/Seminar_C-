@@ -28,5 +28,5 @@ else
 }
 
 
-int rest = Multiple(num1,num2);
-Console.WriteLine(rest == 0? "Кратно" : $"не кратно, остаток {rest}");
+// int rest = Multiple(num1,num2);
+// Console.WriteLine(rest == 0? "Кратно" : $"не кратно, остаток {rest}");
